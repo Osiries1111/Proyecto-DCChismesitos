@@ -1,0 +1,32 @@
+.conf_delete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001; 
+}
+  
+.text_delete_post {
+  font-size: 20px;
+  color: #fff;
+}
+  
+.boton_cancelar_delete, .boton_delete_post {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+.boton_cancelar_delete:hover, .boton_delete_post:hover {
+  background-color: #0056b3;
+}
+  

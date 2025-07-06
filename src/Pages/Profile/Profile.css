@@ -1,0 +1,48 @@
+.profile_container {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(147, 134, 196);
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  margin: auto; 
+  padding: 20px;
+}
+
+
+.titulo_perfil {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.nombre_user,
+.mail,
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.botton_edit_profile {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}

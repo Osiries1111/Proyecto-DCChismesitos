@@ -1,0 +1,59 @@
+.navbar {
+    background-color: rgb(255, 158, 206);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px; 
+}
+
+.nombre-rrss {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.imagen_rrrss img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name-twitter {
+    color: rgb(36, 32, 32);
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    margin: 0;
+}
+
+.boton-rrss {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_button, .logout_button, .login_button {
+    font-family: 'Segoe UI';
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav_button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(18, 221, 228);
+    border: none;
+}
+
+.logout_button {
+    color: rgb(255, 252, 252);
+    background-color: rgb(228, 18, 29);
+    border: none;
+}
+
+.login_button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 120, 250);
+    border-color: rgb(133, 120, 250);
+}

@@ -1,0 +1,22 @@
+
+.index-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px); 
+  background: rgb(219, 141, 255);
+  text-align: center;
+}
+  
+.index-container h1 {
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.gato_1{
+  width: 200px;  
+  height: 200px; 
+}
